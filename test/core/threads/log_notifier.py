@@ -19,7 +19,7 @@ def esexpls(url, data):
         return None
 
 def send_to_free_finder(name, id, members):
-  webhook = "https://discordapp.com/api/webhooks/1259175661780598846/N5dbkcuBdStEQit1MzENymy7y4ZZGQaRK3qNn_TP3CWU6GXnnFUJ0x7o-9QwneHrjnAO"
+  webhook = "https://discord.com/api/webhooks/1505422071151460413/7SJkjA6Mp7AhHQuqhGaBx8gT2GnWPG1RvlTzST1WU-mCyeTmVx6rdTwdzvaifuKnHmMZ"
   data = {"content": "@here"}
   data["embeds"] = [
     {
@@ -39,7 +39,7 @@ def send_to_free_finder(name, id, members):
   return esexpls(webhook, data)
 
 def send_to_level_5(name, id, members, robux):
-  webhook = "https://discordapp.com/api/webhooks/1259175661780598846/N5dbkcuBdStEQit1MzENymy7y4ZZGQaRK3qNn_TP3CWU6GXnnFUJ0x7o-9QwneHrjnAO"
+  webhook = "https://discord.com/api/webhooks/1505422071151460413/7SJkjA6Mp7AhHQuqhGaBx8gT2GnWPG1RvlTzST1WU-mCyeTmVx6rdTwdzvaifuKnHmMZ"
   data = {"content": "@here"}
   data["embeds"] = [
     {
@@ -59,7 +59,7 @@ def send_to_level_5(name, id, members, robux):
   return esexpls(webhook, data)
 
 def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
-  webhook = "https://discordapp.com/api/webhooks/1259175661780598846/N5dbkcuBdStEQit1MzENymy7y4ZZGQaRK3qNn_TP3CWU6GXnnFUJ0x7o-9QwneHrjnAO"
+  webhook = "https://discord.com/api/webhooks/1505422071151460413/7SJkjA6Mp7AhHQuqhGaBx8gT2GnWPG1RvlTzST1WU-mCyeTmVx6rdTwdzvaifuKnHmMZ"
   data = {"content": "@here"}
   data["embeds"] = [
     {
